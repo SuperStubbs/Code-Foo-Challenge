@@ -1,0 +1,103 @@
+Name: Andy Stubblefield
+Date: 5/23/2011
+Title: Answers to Code-Foo questions.
+
+1) "How many pennies could you put on the Golden Gate Bridge without any of    
+them overlapping?"
+For this question, there are several ways to achieve a correct answer. 
+The easiest way to solve the problem involves 6 steps.
+	
+(Really, the first step would be to ask the client what surface areas of the
+bridge they want to be covered. However, for now, I will assume we are
+discussing the bridge deck only.)
+
+Step 1: First, we have to determine how wide the bridge deck is. A simple
+measurement, or inquiry can determine this.
+
+Step 2: Determine how long the bridge deck is. Same as above, a measurement, or
+	inquiry can determine this.
+
+Step 3: Find the diameter of a penny. This is pretty trivial, as we can simply
+measure the diameter of a penny with a standard ruler.
+
+Step 4: Using the data we gathered from above, we need to find out how many 
+pennies can fit side-by-side spanning the width of the bridge. This can be 
+done by taking the total width and dividing that by the diameter of a single
+penny. If there is a remainder, we must round down; as there can be no 
+overlap. This will tell us how many pennies can fit side-by-side in one 
+'column'.
+
+Step 5: Again, using the data we gathered from steps 1-3, we can determine how
+many pennies can fit side-by-side spanning the length of the bridge. Once 
+again, take the total length of the bridge and divide that by the diameter of
+a single penny to discover how many pennies will make up one 'row'. Again, 
+remainders must be rounded down.
+
+Step 6: Using the totals we gathered from steps 4 and 5, we can multiply those
+values together to see how many pennies it would take to cover the bridge
+deck of the Golden Gate Bridge.
+
+
+
+2) "Our images have a ratio of 16:9, and our design layouts have 12 pixel wide
+increments (there are no limits on height). Give examples of three image sizes
+that would have the correct ratio and would fit the design layout."
+
+The first thing we must do is find the smallest image size possible; which we
+can do by using the least common multiple (LCM). Since our restrictions are on
+width, we must find the LCM of 16 and 12. This can be done by listing the 
+prime factors of each number. 12 = 2*2*3 and 16 = 2*2*2*2. We then multiply
+each single factor by the greatest frequency it occurs in a single number.
+Since the factor of 2 occures four times in 16 and only twice in 12, we use
+four and ignore the pair of two's from 12.That gives us 2*2*2*2*3 = 48. 
+The LCM of 16 and 12 is 48. We can use this tofind the minimum size of a 16:9 
+image. First we need to divide 48 by 16 whichgives us 3. We then take 3 and 
+multiply it by 16 and 9 which gives us an image size of 48x27. To find other
+compatible sizes, we can simply multiply 48 and 27 by the same number. 
+48*5 = 240, 27*5 = 135; 48*10 = 480, 27*10 = 270.
+
+In conclusion, 3 acceptable sizes (from smallest to largest):
+	 
+48x27, 240x135, 480x270
+
+
+3) Knight's Tour: The minimum number of moves is 63. Code and graph submitted.
+
+
+
+4) "Creatively prove to us that you meet our value - Fire - that this would be
+more than just a job to you, and that you are passionate about us."
+
+www.youtube.com/watch?v=YmkKIRnNiKM
+
+"Gaming has always been a huge part of my life. From my childhood has an eight
+year-old playing Ice Hockey on the NES to the wee hours of the morning, which I
+was always the fat guy. To my middle school days of coming home and searching 
+the land of Hyrule for every last Heart Piece in Ocarina of Time. To today 
+where I roam the irradiated wasteland of Fallout: New Vegas looking for those
+illusive Vault-Tec Bobbleheads.
+
+I first discovered IGN.com; which was N64.com back in those days, probably
+around 1999 or so looking for a guide for Ocarina of Time, and I've been
+following the site ever since. IGN.com is the one place I go to look for all my 
+gaming updates, new, reviews, editorials, guides, cheats; anything gaming
+related, IGN is where I go.
+
+As you can see behind me, this is where I do most my current gaming today. I've
+got two Xbox 360's, one with Kinect, Sega Genesis, for all my nostalgia gaming,
+and a DS and iPad for my gaming on the go. iOS has a little game called Game 
+Dev Story and that game is so fun and addicting, I just can't put it down. 
+Downstairs, I've also got a Wii, NES, and N64 set-up for all those games.
+
+Gaming, for me, isn't jsut about killing time. It's more than that. Feeling the
+emotional connection with characters is an experience unlike any other. For 
+example, in Mass Effect 2 when you come across the wreckage of the Normandy, I
+really felt like I could feel what Sheppard was going through, having all those
+experiences and emotions come rushing backover him. It was a really powerful
+moment. Another one was in Shadow of the Colossus when you lose your only
+companion in Argo. It really felt like losing a close friend. And finally, one
+moment in gaming I will never forget, is the first time venturing down into 
+Rapture, and my first encounter with a Big Daddy in Bioshock. It's moments like
+these that I game for, and quite fankly, moments like these I live for. One last 
+thing I have to show you, it's my Bioshock tattoo. (Shows tattoo) That's why I
+should work for IGN. Thanks for watching."

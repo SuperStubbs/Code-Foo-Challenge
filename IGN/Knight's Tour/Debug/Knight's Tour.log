@@ -1,0 +1,4 @@
+﻿  Main.cpp
+c:\users\andy\documents\visual studio 2010\projects\jobs\ign-knights tour\knight's tour\main.cpp(69): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+  LINK : C:\Users\Andy\Documents\Visual Studio 2010\Projects\Jobs\IGN-Knights Tour\Knight's Tour\Debug\Knight's Tour.exe not found or not built by the last incremental link; performing full link
+  Knight's Tour.vcxproj -> C:\Users\Andy\Documents\Visual Studio 2010\Projects\Jobs\IGN-Knights Tour\Knight's Tour\Debug\Knight's Tour.exe
