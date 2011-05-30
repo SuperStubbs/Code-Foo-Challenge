@@ -22,7 +22,7 @@ using namespace std;
 
 //These constant integers define the size of the board. The total number of spaces must be even for
 //the alorithm to work properly.
-const int NUM_ROWS = 6;
+const int NUM_ROWS = 8;
 const int NUM_COLUMNS = 8;
 
 //This struct holds a coordiante pair of a location.
